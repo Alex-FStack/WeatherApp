@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(120deg, rgb(117, 126, 144), rgb(176, 183, 167));   
+}
+
+#app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+#temp {
+    text-align: center;
+}
+
+#temp-value {
+    color: white;
+    font-size: 6rem;
+}
+
+#temp-unit {
+    color: white;
+    font-size: 4rem;
+}
+
+#temp-icon {
+    margin: 5rem;
+    width: 50%;
+    height: auto;
+}
+
+#location {
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 2.5rem;
+}
+
+#climate {
+    color: whitesmoke;
+    font-size: 2rem;
+} 
+
+/* 5.37 */
